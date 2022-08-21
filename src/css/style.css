@@ -1,0 +1,222 @@
+body {
+    font-family: 'outfit', sans-serif;
+    background-image: url(../img/page-background.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 100vh;
+}
+
+header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+    padding-top: 30px;
+}
+
+header>.page-title {
+    color: #F1ECFF;
+}
+
+header>.valorant {
+    width: 550px;
+}
+
+.start-card {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 200px 0;
+}
+
+.btn-start {
+    align-items: center;
+    border: none;
+    border-radius: 8px;
+    box-shadow: rgba(151, 65, 252, 0.2) 0 15px 30px -5px;
+    box-sizing: border-box;
+    color: #FFFFFF;
+    display: flex;
+    font-size: 20px;
+    justify-content: center;
+    line-height: 1em;
+    max-width: 100%;
+    min-width: 160px;
+    padding: 3px;
+    text-decoration: none;
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+    white-space: nowrap;
+    cursor: pointer;
+    text-transform: uppercase;
+}
+
+.btn-start:active,
+.btn-start:hover {
+    outline: 0;
+    border: 3px solid white;
+    background-color: #B22222;
+}
+
+.btn-start span {
+    background-color: #000000;
+    padding: 16px 24px;
+    border-radius: 6px;
+    width: 100%;
+    height: 100%;
+    transition: 300ms;
+}
+
+.btn-start:hover span {
+    background: none;
+}
+
+.valorant-slider {
+    display: none;
+    align-items: center;
+    justify-content: center;
+    gap: 80px;
+    margin: 60px 0;
+}
+
+.valorant-slider>.valorant-list {
+    width: 310px;
+    height: 520px;
+    position: relative;
+}
+
+.valorant-slider>.btn-arrow {
+    background-color: #000000;
+    width: 70px;
+    height: 70px;
+    border-radius: 50px;
+    border: 0;
+    cursor: pointer;
+    transition: background-color 0.3s ease-in-out;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+
+.valorant-slider>.btn-arrow:hover {
+    background-color: #A52A2A;
+}
+
+.btn-arrow.btn-back {
+    transform: rotateY(180deg);
+}
+
+.btn-arrow img {
+    width: 40px;
+    height: 40px;
+}
+
+.btn-arrow.btn-back img {
+    margin-left: 8px;
+}
+
+.btn-arrow.btn-forward img {
+    margin-left: 6px;
+}
+
+.valorant-list>.card {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    position: absolute;
+    border-radius: 10px;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    transition: opacity 0.3s ease-in-out;
+    padding: 12px;
+}
+
+.valorant-list>.card.background {
+    background: url(../img/cards-background.jpg) no-repeat;
+    background-size: 100%;
+}
+
+.valorant-list>.card>.information {
+    background-color: #A52A2A;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 8px 10px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+.valorant-list>.card>.information>.name {
+    color: white;
+    font-size: 20px;
+    text-transform: capitalize;
+}
+
+.valorant-list>.card>.information>.information-role {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 6px 10px;
+    border-radius: 20px;
+    background-color: #333;
+    gap: 5px;
+}
+
+.valorant-list>.card>.information>.information-role>.role {
+    color: #F1ECFF;
+    text-transform: capitalize;
+    font-size: 17px;
+}
+
+.valorant-list>.card>.information>.information-role>.image-role {
+    width: 25px;
+    height: 25px;
+}
+
+.valorant-list>.card>.container-image {
+    text-align: center;
+}
+
+.valorant-list>.card>.container-image>.valorant-image {
+    max-width: 100%;
+    max-height: 280px;
+    padding: 20px;
+}
+
+.valorant-list>.card>.description {
+    background: rgba(255, 255, 255, 0.9);
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    border-top-left-radius: 10px;
+    border-style: solid;
+    border-color: #A52A2A;
+}
+
+.valorant-list>.card>.description>.title {
+    background-color: #B22222;
+    border-top-left-radius: 6px;
+    color: #F1ECFF;
+    font-size: 15px;
+    padding: 10px;
+    text-transform: uppercase;
+}
+
+.valorant-list>.card>.description>.text {
+    font-size: 14px;
+    padding: 12px;
+    text-align: justify;
+    max-height: 115px;
+    overflow-y: auto;
+}
+
+::-webkit-scrollbar {
+    width: 10px;
+}
+
+::-webkit-scrollbar-track {
+    border-radius: 20px;
+}
+
+::-webkit-scrollbar-thumb {
+    background-color: currentColor;
+    border-radius: 10px;  
+}

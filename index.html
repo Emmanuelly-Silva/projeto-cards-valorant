@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Projeto Valorant Cards</title>
+
+    <link rel="shortcut icon" href="src/img/valorant-icon.png" type="image/x-icon" />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin="">
+    <link href="https://fonts.googleapis.com/css2?family=Outfit&display=swap" rel="stylesheet">
+    
+    <link rel="stylesheet" href="src/css/reset.css">
+    <link rel="stylesheet" href="src/css/style.css">
+    <link rel="stylesheet" href="src/css/responsive.css">
+</head>
+<body>
+    <header>
+        <img src="src/img/logo-valorant.png" alt="Valorant" class="valorant">
+    </header>
+    <main>
+        <div class="start-card" id="start-card">
+            <button class="btn-start" role="button" onclick="startCardList()"><span>Cards</span></button>
+        </div>
+        <div class="valorant-slider" id="valorant-slider">
+            <button class="btn-arrow btn-back" id="btn-back">
+                <img src="src/img/arrow.png" alt="seta voltar">
+            </button>
+
+            <ul class="valorant-list">
+                <li class="card background" id="background">
+                    <div class="information" id="information"></div>
+                    
+                    <div class="container-image" id="container-image"></div>
+
+                    <div class="description" id="description">
+                    </div>
+                </li>
+            </ul>
+
+            <button class="btn-arrow btn-forward" id="btn-forward">
+                <img src="src/img/arrow.png" alt="seta avançar">
+            </button>
+        </div>
+    </main>
+    <script src="src/js/index.js"></script>
+</body>
+</html>

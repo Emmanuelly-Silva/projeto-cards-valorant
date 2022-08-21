@@ -1,0 +1,53 @@
+@media (max-width: 620px) {
+    body {
+        background: #000000;
+    }
+    header>.valorant {
+        width: 250px;
+    }
+
+    .start-card {
+        margin: 130px 0;
+    }
+
+    .valorant-slider {
+        padding: 0 15px;
+        gap: 10px;
+    }
+
+    .valorant-slider>.btn-arrow {
+        width: 20px;
+        height: 20px;
+        padding: 20px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .valorant-slider>.valorant-list {
+        height: 480px;
+    }
+
+    .valorant-list>.card>.container-image>.valorant-image {
+        max-height: 210px;
+    }
+
+    .valorant-list>.card>.information>.name {
+        max-width: 50%;
+        font-size: 16px;
+    }
+
+    .valorant-list>.card>.information>.information-role>.role {
+        font-size: 14px;
+    }
+
+    .valorant-list>.card>.information>.information-role>.image-role {
+        width: 20px;
+        height: 20px;
+    }
+
+    .btn-arrow img {
+        width: 25px;
+        height: 25px;
+    }
+}
