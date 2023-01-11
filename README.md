@@ -30,7 +30,7 @@ As seguintes tecnologias foram usadas no desenvolvimento do projeto:
 
 ## 💡 Como acessar o projeto:
 #### Para acessar, basta clicar no link a seguir: https://emmanuelly-silva.github.io/projeto-cards-valorant/.
-<!--<i>Durante o teste do projeto serão reproduzidas falas dos personagens, variando de acordo com o card em exibição.</i>-->
+<i>Durante o teste do projeto serão reproduzidas falas dos personagens, variando de acordo com o card em exibição.</i>
 <br><br>
 
 ## 📝 Autora:
