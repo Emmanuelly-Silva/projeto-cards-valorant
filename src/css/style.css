@@ -6,6 +6,16 @@ body {
     min-height: 100vh;
 }
 
+.link-github {
+    display: flex;
+    padding: 5px;
+}
+
+.link-github i {
+    color: white;
+    font-size: 40px;
+}
+
 .game-title {
     display: flex;
     justify-content: center;
