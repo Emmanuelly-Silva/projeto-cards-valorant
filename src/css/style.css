@@ -6,7 +6,7 @@ body {
     min-height: 100vh;
 }
 
-header {
+.game-title {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -14,11 +14,11 @@ header {
     padding-top: 30px;
 }
 
-header>.page-title {
+.game-title>.page-title {
     color: #F1ECFF;
 }
 
-header>.valorant {
+.game-title>.valorant {
     width: 550px;
 }
 
