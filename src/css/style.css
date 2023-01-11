@@ -8,7 +8,7 @@ body {
 
 .link-github {
     display: flex;
-    padding: 5px;
+    padding: 10px;
 }
 
 .link-github i {
@@ -21,11 +21,6 @@ body {
     justify-content: center;
     align-items: center;
     gap: 15px;
-    padding-top: 30px;
-}
-
-.game-title>.page-title {
-    color: #F1ECFF;
 }
 
 .game-title>.valorant {
